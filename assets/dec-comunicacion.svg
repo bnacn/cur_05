@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comunicar el evento siguiendo la cadena de reporte">
+  <rect width="200" height="160" rx="16" fill="#0F2C4C"/>
+  <!-- escalation chain: three nodes connected upward -->
+  <line x1="46" y1="120" x2="100" y2="86" stroke="#3E7FC4" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="86" x2="154" y2="46" stroke="#C79A3D" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="46" cy="120" r="16" fill="#173D64" stroke="#3E7FC4" stroke-width="2"/>
+  <circle cx="100" cy="86" r="16" fill="#173D64" stroke="#3E7FC4" stroke-width="2"/>
+  <circle cx="154" cy="46" r="18" fill="#0F2C4C" stroke="#C79A3D" stroke-width="2.4"/>
+
+  <!-- simple person glyphs in first two nodes -->
+  <g fill="#E7F0FA">
+    <circle cx="46" cy="114" r="4"/>
+    <path d="M39 124c0-5 3-8 7-8s7 3 7 8" />
+    <circle cx="100" cy="80" r="4"/>
+    <path d="M93 90c0-5 3-8 7-8s7 3 7 8" />
+  </g>
+
+  <!-- CCCN / committee glyph at top node -->
+  <g fill="#C79A3D">
+    <circle cx="148" cy="41" r="3"/>
+    <circle cx="160" cy="41" r="3"/>
+    <circle cx="154" cy="48" r="3"/>
+  </g>
+
+  <!-- arrow up indicating escalation -->
+  <path d="M172 30 172 14 M166 20 172 12 178 20" stroke="#C79A3D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <text x="100" y="145" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#8FB6E0" letter-spacing=".5">CADENA DE REPORTE</text>
+</svg>

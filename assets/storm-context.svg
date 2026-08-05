@@ -1,0 +1,66 @@
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tormenta afectando una sucursal del Banco">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#173D64"/>
+      <stop offset="100%" stop-color="#0F2C4C"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3E7FC4"/>
+      <stop offset="100%" stop-color="#2B6CB0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="260" rx="18" fill="url(#sky)"/>
+
+  <!-- rain -->
+  <g stroke="#8FB6E0" stroke-width="2.4" stroke-linecap="round" opacity="0.65">
+    <line x1="60" y1="40" x2="48" y2="68"/>
+    <line x1="95" y1="30" x2="83" y2="58"/>
+    <line x1="130" y1="46" x2="118" y2="74"/>
+    <line x1="330" y1="34" x2="318" y2="62"/>
+    <line x1="365" y1="48" x2="353" y2="76"/>
+    <line x1="400" y1="30" x2="388" y2="58"/>
+    <line x1="270" y1="26" x2="258" y2="54"/>
+  </g>
+
+  <!-- cloud -->
+  <g fill="#0A2036">
+    <ellipse cx="230" cy="55" rx="90" ry="34"/>
+    <ellipse cx="175" cy="60" rx="55" ry="26"/>
+    <ellipse cx="300" cy="58" rx="60" ry="28"/>
+  </g>
+  <g fill="#132A45">
+    <ellipse cx="230" cy="50" rx="86" ry="30"/>
+    <ellipse cx="178" cy="55" rx="50" ry="22"/>
+    <ellipse cx="295" cy="53" rx="56" ry="24"/>
+  </g>
+
+  <!-- water level -->
+  <path d="M0 200 Q40 190 80 200 T160 200 T240 200 T320 200 T400 200 T480 200 V260 H0 Z" fill="url(#water)" opacity="0.9"/>
+  <path d="M0 208 Q40 198 80 208 T160 208 T240 208 T320 208 T400 208 T480 208 V260 H0 Z" fill="#2B6CB0" opacity="0.55"/>
+
+  <!-- branch building -->
+  <g>
+    <rect x="165" y="118" width="150" height="90" rx="4" fill="#F2F7FC"/>
+    <rect x="165" y="118" width="150" height="14" fill="#C79A3D"/>
+    <!-- columns -->
+    <rect x="180" y="132" width="10" height="76" fill="#D9E4EE"/>
+    <rect x="205" y="132" width="10" height="76" fill="#D9E4EE"/>
+    <rect x="230" y="132" width="20" height="76" fill="#173D64"/>
+    <rect x="260" y="132" width="10" height="76" fill="#D9E4EE"/>
+    <rect x="285" y="132" width="10" height="76" fill="#D9E4EE"/>
+    <!-- door -->
+    <rect x="228" y="170" width="24" height="38" fill="#0F2C4C"/>
+    <!-- steps under water -->
+    <rect x="165" y="196" width="150" height="12" fill="#E7F0FA" opacity="0.5"/>
+  </g>
+
+  <!-- BNA sign -->
+  <text x="240" y="112" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#C79A3D" letter-spacing="1">BNA · SUCURSAL</text>
+
+  <!-- barrier icon -->
+  <g transform="translate(110,205)">
+    <rect x="0" y="0" width="34" height="10" rx="2" fill="#C79A3D"/>
+    <rect x="4" y="-16" width="4" height="18" fill="#8B7133"/>
+    <rect x="26" y="-16" width="4" height="18" fill="#8B7133"/>
+  </g>
+</svg>
