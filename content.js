@@ -42,7 +42,7 @@ const CONTENT = {
             },
             {
               label: null,
-              text: "Lo importante no es evitar que ocurran, sino estar preparados para responder."
+              text: "Si bien resulta importante prevenir que ocurra el corte, también lo es estar preparados para responder cuando pase. Sobre este segundo aspecto nos estaremos enfocando dentro de la disciplina."
             },
             {
               label: "La conexión con el concepto", icon: "link",
@@ -89,7 +89,7 @@ const CONTENT = {
             {
               title: "Preparación",
               front: "Improvisar rara vez es la mejor estrategia.",
-              back: "Anticipar escenarios, analizar riesgos y definir cómo actuar permite responder con mayor rapidez y orden cuando ocurre una disrupción.",
+              back: "Anticipar escenarios y definir cómo actuar permite responder con mayor rapidez y orden cuando ocurre un evento crítico y/o disruptivo.",
               key: "La preparación reduce la incertidumbre."
             },
             {
@@ -378,7 +378,7 @@ const CONTENT = {
               id: "d2",
               title: "Decisión 2 — Objetivo de recuperación",
               image: "assets/dec-rto.svg",
-              prompt: "Mientras se analiza la situación, recordás que durante el BIA se definió un Tiempo Objetivo de Recuperación (RTO) para las funciones críticas de la sucursal. ¿Qué RTO elegirías para esta función?",
+              prompt: "Definí un Tiempo Objetivo de Recuperación para la operatoria. Recordá que la determinación del valor tendrá consecuencias. El RTO determina <strong>cuándo</strong>, como equipo, debemos recuperar nuestras funciones críticas a pesar del evento.",
               type: "choice",
               options: [
                 { id: "10min", label: "10 minutos" },
@@ -389,17 +389,17 @@ const CONTENT = {
                 "10min": {
                   elegiste: "Un RTO de 10 minutos.",
                   consecuencia: "Un RTO de 10 minutos define un objetivo muy exigente: la función debería quedar recuperada casi de inmediato.",
-                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo y por lo tanto deberá cumplir con la implementación de su propia estrategia. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 },
                 "1h": {
                   elegiste: "Un RTO de 1 hora.",
                   consecuencia: "Un RTO de 1 hora define un objetivo intermedio, con un equilibrio entre exigencia y margen de maniobra.",
-                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo y por lo tanto deberá cumplir con la implementación de su propia estrategia. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 },
                 "6h": {
                   elegiste: "Un RTO de 6 horas.",
                   consecuencia: "Un RTO de 6 horas define un objetivo más laxo, con mayor margen de tiempo antes de recuperar la función.",
-                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo y por lo tanto deberá cumplir con la implementación de su propia estrategia. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 }
               }
             },
