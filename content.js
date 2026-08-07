@@ -58,7 +58,7 @@ const CONTENT = {
             },
             {
               label: "Cierre", icon: "flag",
-              text: "La Continuidad del Negocio puede resumirse en una idea muy sencilla: prepararse antes de una disrupción para poder seguir adelante cuando esta ocurra."
+              text: "La Continuidad del Negocio puede resumirse en una idea muy sencilla: prepararse antes de una disrupción para poder seguir adelante cuando ésta ocurra."
             },
             {
               label: null,
@@ -117,7 +117,7 @@ const CONTENT = {
           title: "¿Qué es un Sistema de Gestión?",
           paragraphs: [
             "Un Sistema de Gestión es una forma organizada de trabajar. Agrupa políticas, procesos, responsabilidades y herramientas para que un objetivo no dependa de esfuerzos aislados o la improvisación de una persona, sino de un método compartido por toda la organización.",
-            "El SGCN es, entonces, el conjunto ordenado de piezas que permite al Banco anticiparse, responder y recuperarse ante situaciones que interrumpen su funcionamiento habitual. Cada una de esas piezas cumple un rol distinto, y a la vez todas están conectadas entre sí: el resultado de una alimenta a la siguiente."
+            "El SGCN es, entonces, el conjunto ordenado de componentes que permite al Banco anticiparse, responder y recuperarse ante situaciones que interrumpen su funcionamiento habitual. Cada uno de esos componentes cumple un rol distinto, y a la vez todos están conectados entre sí: el resultado de uno alimenta al siguiente."
           ]
         },
         {
@@ -131,7 +131,7 @@ const CONTENT = {
             {
               name: "BIA",
               full: "Análisis de Impacto al Negocio",
-              objective: "Comprender cuándo y cuáles productos, procesos y actividades deben recuperarse primero frente a una disrupción.",
+              objective: "Comprender cuáles productos, procesos y actividades deben recuperarse primero frente a una disrupción y el período de tiempo comprometido.",
               explanation: "El BIA es el punto de partida del sistema. Permite identificar prioridades de recuperación, tiempos objetivos y recursos necesarios para hacerlo.",
               relation: "Los resultados del BIA sirven de base para definir estrategias y elaborar los planes de continuidad."
             },
@@ -152,7 +152,7 @@ const CONTENT = {
             {
               name: "Capacitación",
               full: null,
-              objective: "Fortalecer el conocimiento de los agentes sobre sus planes para conocer cuándo y cómo actuar frente a determinados escenarios.",
+              objective: "Fortalecer el conocimiento de los colaboradores sobre sus planes para conocer cuándo y cómo actuar frente a determinados escenarios.",
               explanation: "Un plan solo resulta útil si quienes pueden aplicarlo cuentan con el conocimiento relacionado. La activación y mantenimiento de cada plan depende de cada equipo, por lo que la capacitación resulta clave.",
               relation: "Prepara a las personas para ejecutar correctamente los planes."
             },
@@ -264,7 +264,7 @@ const CONTENT = {
             },
             {
               question: "¿Quién interviene principalmente?",
-              incidente: "El área responsable del recurso.",
+              incidente: "El área que brinda soporte sobre el recurso.",
               disrupcion: "Las áreas responsables de las actividades afectadas, aplicando las estrategias y planes definidos.",
               crisis: "La conducción institucional, mediante los mecanismos previstos para la gestión de crisis."
             },
@@ -298,10 +298,10 @@ const CONTENT = {
               incorrectFeedback: "La opción correcta es Disrupción. El problema ya no se limita a un recurso puntual, sino que impacta sobre la disponibilidad de una actividad que puede o no involucrar a múltiples áreas."
             },
             {
-              text: "Una publicación en redes sociales genera una fuerte repercusión sobre el Banco. La operación continúa normalmente, pero la situación requiere decisiones institucionales coordinadas y comunicaciones oficiales.",
+              text: "Reclamos por cobros indebidos se acumulan sin resolución en varias sucursales durante varios días. Clientes afectados comparten su experiencia en redes sociales, la publicación se viraliza y genera un fuerte impacto reputacional para el Banco. La operación continúa con normalidad, pero la situación requiere decisiones institucionales coordinadas y comunicaciones oficiales.",
               correct: "Crisis",
-              correctFeedback: "La crisis no depende exclusivamente de una interrupción operativa. También puede responder a situaciones reputacionales que requieren una conducción institucional.",
-              incorrectFeedback: "La opción correcta es Crisis. En este caso, el elemento determinante no es la disponibilidad de los servicios, sino la necesidad de adoptar decisiones excepcionales para gestionar la situación."
+              correctFeedback: "La crisis no depende exclusivamente de una interrupción operativa. Un problema que en principio fue puntual puede escalar y derivar en una situación reputacional que también requiere una conducción institucional.",
+              incorrectFeedback: "La opción correcta es Crisis. En este caso, el elemento determinante no es la disponibilidad de los servicios, sino el impacto reputacional y la necesidad de adoptar decisiones excepcionales para gestionar la situación."
             }
           ]
         }
@@ -321,7 +321,7 @@ const CONTENT = {
           title: "Etapas generales de la Gestión de un Evento Potencialmente Crítico",
           method: "M10 · Infografía",
           intro: [
-            "Cuando ocurre un evento fuera de lo habitual, la organización debe actuar con rapidez, pero también con información suficiente. En ese momento aún puede no estar claro cuál será su alcance, cuánto tiempo durará o si será necesario adoptar medidas extraordinarias.",
+            "Cuando ocurre un evento fuera de lo habitual, la organización debe actuar con rapidez e información incompleta. En ese momento aún puede no estar claro cuál será su alcance, cuánto tiempo durará o si será necesario adoptar medidas extraordinarias.",
             "Por ese motivo, la Gestión de Crisis comienza desde la identificación y el análisis del evento, mucho antes de que exista una eventual declaración de crisis. Su objetivo es organizar la respuesta institucional para que las decisiones se tomen de manera coordinada, con información confiable y en el momento oportuno."
           ],
           stages: [
@@ -339,7 +339,6 @@ const CONTENT = {
           navLabel: "Simulación de decisiones",
           title: "Simulación: la tormenta",
           method: "M5 · Simulación de decisiones",
-          contextImage: "assets/storm-context.svg",
           context: [
             "Una tormenta severa afecta una zona del país donde el Banco tiene presencia. Se registran cortes de energía y dificultades de acceso en varias localidades.",
             "En algunas sucursales, el ingreso al edificio queda impedido por el agua. No es posible atender al público y todavía se desconoce cuánto tiempo durará la situación.",
@@ -379,7 +378,7 @@ const CONTENT = {
               id: "d2",
               title: "Decisión 2 — Objetivo de recuperación",
               image: "assets/dec-rto.svg",
-              prompt: "Mientras se analiza la situación, recordás que durante el BIA se definió un Tiempo Objetivo de Recuperación (RTO) para las funciones críticas de la sucursal. ¿Cuál de los siguientes RTO considerás más adecuado?",
+              prompt: "Mientras se analiza la situación, recordás que durante el BIA se definió un Tiempo Objetivo de Recuperación (RTO) para las funciones críticas de la sucursal. ¿Qué RTO elegirías para esta función?",
               type: "choice",
               options: [
                 { id: "10min", label: "10 minutos" },
@@ -389,18 +388,18 @@ const CONTENT = {
               analysis: {
                 "10min": {
                   elegiste: "Un RTO de 10 minutos.",
-                  consecuencia: "La estrategia prevista permite recuperar la atención aproximadamente en una hora, por lo que el objetivo definido no llega a cumplirse.",
-                  concepto: "El RTO debe representar una necesidad real del negocio y, al mismo tiempo, ser alcanzable mediante las estrategias previstas. Un objetivo excesivamente exigente puede indicar la necesidad de revisar la estrategia o el propio RTO."
+                  consecuencia: "Un RTO de 10 minutos define un objetivo muy exigente: la función debería quedar recuperada casi de inmediato.",
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 },
                 "1h": {
                   elegiste: "Un RTO de 1 hora.",
-                  consecuencia: "La recuperación de la actividad se logra dentro del tiempo objetivo previsto.",
-                  concepto: "Cuando el objetivo de recuperación y la estrategia definida son coherentes entre sí, la organización cuenta con mayores posibilidades de responder de manera planificada frente a una disrupción."
+                  consecuencia: "Un RTO de 1 hora define un objetivo intermedio, con un equilibrio entre exigencia y margen de maniobra.",
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 },
                 "6h": {
                   elegiste: "Un RTO de 6 horas.",
-                  consecuencia: "La recuperación se alcanza mucho antes del tiempo objetivo definido.",
-                  concepto: "Un RTO excesivamente amplio también merece ser analizado. Si la recuperación puede lograrse en un tiempo considerablemente menor, puede resultar conveniente revisar si el objetivo refleja adecuadamente la criticidad del proceso."
+                  consecuencia: "Un RTO de 6 horas define un objetivo más laxo, con mayor margen de tiempo antes de recuperar la función.",
+                  concepto: "El Tiempo Objetivo de Recuperación (RTO) establece el horizonte de recuperación que cada Equipo se pone como objetivo. Cuanto menor sea el valor, más exigente es el RTO; cuanto mayor sea, mayor podrá ser el impacto potencial de la afectación."
                 }
               }
             },
@@ -417,13 +416,13 @@ const CONTENT = {
               analysis: {
                 A: {
                   elegiste: "Esperar a que el edificio vuelva a estar disponible.",
-                  consecuencia: "Las funciones críticas permanecen indisponibles hasta que desaparece la causa del evento.",
-                  concepto: "Las estrategias de continuidad existen para sostener los productos y servicios mientras persiste la disrupción. Esperar a que el problema se resuelva no siempre resulta compatible con los objetivos de recuperación definidos."
+                  consecuencia: "El edificio permanece inaccesible mientras dura la tormenta: eso no cambia según lo que se decida.",
+                  concepto: "Lo que cambia con esta decisión es el impacto, no el evento. Al esperar a que el edificio vuelva a estar disponible, las funciones críticas quedan sin ninguna alternativa mientras tanto, y el impacto sobre los clientes crece cuanto más se extiende la situación."
                 },
                 B: {
                   elegiste: "Aplicar la estrategia prevista.",
-                  consecuencia: "Las funciones críticas continúan prestándose mediante mecanismos alternativos mientras el edificio permanece inaccesible.",
-                  concepto: "Las estrategias de continuidad permiten sostener los productos y servicios del Banco aun cuando el recurso originalmente utilizado no se encuentre disponible."
+                  consecuencia: "El edificio permanece inaccesible mientras dura la tormenta: eso no cambia según lo que se decida.",
+                  concepto: "Lo que cambia con esta decisión es el impacto, no el evento. Al aplicar la estrategia prevista, las funciones críticas se sostienen mediante canales digitales y sucursales cercanas, y el impacto sobre los clientes se reduce aunque el edificio original siga inaccesible."
                 }
               }
             }
